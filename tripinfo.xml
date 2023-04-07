@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-01-23 08:40:36 by Eclipse SUMO sumo Version 1.15.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="c:\Users\kibalama.3\Downloads\sumo_runner_python/env/traffic_model/reduced_columbus_region/reduced_columbus_region.net.xml"/>
+        <route-files value="c:\Users\kibalama.3\Downloads\sumo_runner_python/env/traffic_model/reduced_columbus_region/traffic_sim.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="55275"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="c:\Users\kibalama.3\Downloads\sumo_runner_python/env/traffic_model/reduced_columbus_region/gui_settings.cfg"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="host0" depart="0.00" departLane="-21352789#22_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="592.00" arrivalLane="-21383266#4_0" arrivalPos="248.45" arrivalSpeed="13.33" duration="592.00" routeLength="8829.85" waitingTime="35.00" waitingCount="6" stopTime="0.00" timeLoss="143.57" rerouteNo="0" devices="tripinfo_host0" vType="passenger" speedFactor="0.96" vaporized=""/>
+</tripinfos>
