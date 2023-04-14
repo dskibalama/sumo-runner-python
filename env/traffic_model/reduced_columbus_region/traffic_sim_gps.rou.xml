@@ -1,0 +1,10 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+            <vType id="passenger" accel="2" decel="2" sigma="0" length="5" minGap="2.5" maxSpeed="45"
+            guiShape="passenger" speedFactor="0.9" carFollowModel="IDM" speedDev="0.1" vClass="passenger"/>
+            <vehicle id="host0" type="passenger" depart="0.00">
+ 
+	<!-- Route_19 -->
+	<route edges="-21352789#22 -21352789#21 -21352789#19 -21352789#15 -21352789#13 -21352789#10 -21352789#7 -21352789#4 592506317#0 -43388406#12 -43388406#8 -43388406#5 -43388406#3 -43388406#1 -654318674#1 -669615528 669615529#0 669615529#1 21346540#0 21346136 -592940630 -21368411#4 -21395114#8 21398255#0 -21383266#4"/>
+ 
+	</vehicle>
+</routes>

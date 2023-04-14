@@ -10,6 +10,15 @@ Download the repository by cloning via https using the command below:
 git clone https://github.com/dskibalama/sumo-runner-python.git
 ```
 
+The sample network file used is larger than 100MB which is beyond the file size limit supported by the free version of GitHUb. I have zipped the network file into a `.zip` file and you have to unzip this file into the appropriate location before running the scripts below. 
+
+On linux run the command
+```shell
+cd env/traffic_model/reduced_columbus_region
+unzip -q reduced_columbus_region.net.zip
+```
+This should then unzip the file `reduced_columbus_region.net.xml` in the folder `env/traffic_model/reduced_columbus_region`
+
 The scripts can be run with an appropriately configured anaconda/miniconda environment with the name `sumo-env`. To setup the same environment please run the commands below:
 
 ```shell 
