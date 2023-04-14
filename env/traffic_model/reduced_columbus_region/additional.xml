@@ -1,0 +1,4 @@
+<additional>
+                  <vType id="Pacifica_PHEV" accel="2" decel="2" sigma="0" length="5" minGap="2.5" maxSpeed="35"
+                  guiShape="passenger" speedFactor="0.90" speedDev="0.1" vClass="passenger"/>
+</additional>
